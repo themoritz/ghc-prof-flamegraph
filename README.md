@@ -10,6 +10,14 @@ understandable by the
 
     cabal install
 
+### Nix
+
+``` shell
+git clone --recursive git@github.com:themoritz/ghc-prof-flamegraph.git
+cd ghc-prof-flamegraph
+nix-env -if .
+```
+
 ## Usage
 
 First convert a `.prof` file into the flame graph svg:
